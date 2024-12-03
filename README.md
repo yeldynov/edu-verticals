@@ -1,4 +1,4 @@
-# Edu Verticals - Educational Consulting Website
+# Edu Verticals - Educational Consulting
 
 <!-- [https://dashboard-ai-pied.vercel.app/](https://dashboard-ai-pied.vercel.app/) -->
 
