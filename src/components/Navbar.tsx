@@ -19,8 +19,8 @@ export default function Navbar() {
   ]
 
   return (
-    <header className='sticky xl:top-16 top-10 z-50 mx-auto border-b rounded-full xl:w-11/12 w-[98%] bg-white'>
-      <div className='container mx-auto flex h-24 gap-2 max-w-6xl items-center justify-between px-4 lg:px-6'>
+    <header className='sticky xl:top-16 2xl:top-24 top-10 z-50 mx-auto border-b rounded-full xl:w-11/12 w-[98%] bg-white'>
+      <div className='container mx-auto flex h-24 gap-2  items-center justify-between px-4 lg:px-6'>
         <Link href='#' className='flex items-center gap-2' prefetch={false}>
           <Image
             src='/logo-full.png'
@@ -61,7 +61,7 @@ export default function Navbar() {
                 size='icon'
                 className='rounded-full lg:hidden'
               >
-                <Menu className='h-20 w-20 text-gray-500' />
+                <Menu size={80} className='text-gray-500' />
                 <span className='sr-only'>Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
