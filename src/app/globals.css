@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Text&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,6 +39,16 @@ p {
 
 .tiny-text {
   @apply text-[0.625rem] leading-[1.2] font-normal; /* 10px */
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(
+    circle,
+    #236fff 0%,
+    #281889 25%,
+    #6601ff 50%,
+    #d70181 100%
+  );
 }
 
 @layer base {

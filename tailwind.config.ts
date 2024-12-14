@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default {
   darkMode: ['class'],
@@ -51,6 +52,10 @@ export default {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+      },
+      fontFamily: {
+        inter: ['Inter', ...defaultTheme.fontFamily.sans],
+        serif: ['DM Serif Text', ...defaultTheme.fontFamily.serif],
       },
       borderRadius: {
         lg: 'var(--radius)',
