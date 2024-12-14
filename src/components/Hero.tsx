@@ -59,10 +59,27 @@ const Hero = () => {
       </div>
       {/* right */}
       <div className='gap-5 hidden lg:flex'>
-        <div className='flex flex-col gap-5 rounded-3xl w-[393px] bg-center h-[700px] bg-[url("/hero-1.png")]'></div>
+        <div className='flex relative flex-col gap-5 rounded-3xl w-[393px] bg-center h-[700px] bg-[url("/hero-1.png")]'>
+          <div className='rounded-3xl text-right flex flex-col gap-1 w-fit absolute top-2 right-2 bg-white p-2 opacity-75'>
+            <h4 className='font-serif font-bold'>5,000+</h4>
+            <p className='text-xs'>Careers Transformed</p>
+          </div>
+        </div>
         <div className='flex flex-row lg:flex-col gap-5'>
-          <div className='flex flex-col gap-5 rounded-3xl w-[275px] bg-top h-[339px] bg-[url("/hero-2.png")]'></div>
-          <div className='flex flex-col gap-5 rounded-3xl w-[275px] bg-center h-[339px] bg-[url("/hero-3.png")]'></div>
+          <div className='flex relative flex-col gap-5 rounded-3xl w-[275px] bg-top h-[339px] bg-[url("/hero-2.png")]'>
+            {' '}
+            <div className='rounded-3xl text-right flex flex-col gap-1 w-fit absolute bottom-2 right-2 bg-white p-2 opacity-75'>
+              <h4 className='font-serif font-bold'>65+</h4>
+              <p className='text-xs'>Industries Served</p>
+            </div>
+          </div>
+          <div className='flex relative flex-col gap-5 rounded-3xl w-[275px] bg-center h-[339px] bg-[url("/hero-3.png")]'>
+            {' '}
+            <div className='rounded-3xl text-right flex flex-col gap-1 w-fit absolute bottom-2 right-2 bg-white p-2 opacity-75'>
+              <h4 className='font-serif font-bold'>5+</h4>
+              <p className='text-xs'>Years In Service</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
