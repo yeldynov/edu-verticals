@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet'
 import { Menu } from 'lucide-react'
+import { useEffect, useState } from 'react'
 
 export default function Navbar() {
   const pathname = usePathname()
@@ -18,8 +19,38 @@ export default function Navbar() {
     { href: '/contact', label: 'Contact' },
   ]
 
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const storedScrollPosition = localStorage.getItem('scrollPosition')
+
+    if (storedScrollPosition && parseInt(storedScrollPosition) > 20) {
+      setScrolled(true)
+    }
+
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setScrolled(true)
+        localStorage.setItem('scrollPosition', window.scrollY.toString())
+      } else {
+        setScrolled(false)
+        localStorage.setItem('scrollPosition', '0')
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   return (
-    <header className='sticky xl:top-16 2xl:top-24 top-10 z-50 mx-auto border-b rounded-full xl:w-11/12 w-[98%] bg-white'>
+    <header
+      className={`sticky z-50 mx-auto border-b rounded-full bg-white transition-all duration-300 ${
+        !scrolled ? 'xl:top-16 2xl:top-24 top-4' : 'top-2'
+      } xl:w-11/12 w-[98%]`}
+    >
       <div className='container mx-auto flex h-24 gap-2  items-center justify-between px-4 lg:px-6'>
         <Link href='#' className='flex items-center gap-2' prefetch={false}>
           <Image

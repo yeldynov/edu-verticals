@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <div className='mt-20 flex flex-col lg:mt-40 lg:flex-row gap-20'>
+    <div className='mt-20 my-16 flex flex-col lg:mt-40 lg:flex-row gap-20'>
       {/* left */}
       <div className='flex flex-col justify-center gap-8'>
         <Button
