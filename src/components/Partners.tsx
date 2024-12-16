@@ -134,27 +134,29 @@ const Partners = () => {
                   />
                 </div>
                 <div className='mt-4'>
-                  <div className='flex flex-wrap w-fit items-center gap-2 bg-[#E7EDFF] p-2'>
+                  <div className='flex flex-wrap w-fit items-center gap-1 bg-[#E7EDFF] p-2'>
                     <div className='flex flex-col bg-white rounded-xl p-1'>
-                      <h4>{partner.naac}</h4>
-                      <p className='text-xs'>NAAC</p>
+                      <h4 className='text-2xl lg:text-3xl'>{partner.naac}</h4>
+                      <p className='text-[8px] lg:text-xs'>NAAC</p>
                     </div>
                     <div className='flex flex-col bg-white rounded-xl p-1'>
-                      <h4>{partner.credit}</h4>
-                      <p className='text-xs'>Credit P.</p>
+                      <h4 className='text-2xl lg:text-3xl'>{partner.credit}</h4>
+                      <p className='text-[10px] lg:text-xs'>Credit P.</p>
                     </div>
                     <div className='flex flex-col bg-white rounded-xl p-1'>
-                      <h4>{partner.rank}th</h4>
-                      <p className='text-xs'>Rank</p>
+                      <h4 className='text-2xl lg:text-3xl'>{partner.rank}th</h4>
+                      <p className='text-[10px] lg:text-xs'>Rank</p>
                     </div>
                     <div className='flex flex-col bg-white rounded-xl p-1'>
-                      <h4>{partner.managementRank}nd</h4>
-                      <p className='text-xs'>Management</p>
+                      <h4 className='text-2xl lg:text-3xl'>
+                        {partner.managementRank}nd
+                      </h4>
+                      <p className='text-[10px] lg:text-xs'>Management</p>
                     </div>
                   </div>
 
                   <div className='flex flex-col py-3'>
-                    <h3 className='text-2xl lg:text-3xl font-serif font-semibold'>
+                    <h3 className='text-xl lg:text-3xl font-serif font-semibold'>
                       {partner.name}
                     </h3>
                     <p className='text-gray-600 text-sm'>{partner.city}</p>
