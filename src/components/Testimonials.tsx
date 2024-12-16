@@ -76,16 +76,19 @@ export const testimonials: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <div className='my-16'>
+    <div className='my-8 lg:my-16 lg:pt-16'>
       <Carousel>
         <CarouselContent className='-ml-2 md:-ml-4'>
           {testimonials.map((testimonial: Testimonial, index: number) => (
-            <CarouselItem className='pl-2 md:pl-4  lg:basis-1/3' key={index}>
-              <div className='flex flex-col h-[470px] justify-between text-left bg-white p-4 lg:p-8 rounded-2xl shadow-md'>
+            <CarouselItem
+              className='pl-2 md:pl-4 md:basis-1/3 2xl:basis-1/4'
+              key={index}
+            >
+              <div className='flex flex-col h-[460px] lg:h-[500px] 2xl:h-[600px] justify-between text-left bg-white p-4 lg:p-8 rounded-2xl shadow-md'>
                 <p className='text-sm mt-2 text-gray-500'>
                   {testimonial.companyName}
                 </p>
-                <h4 className=' font-serif text-2xl lg:text-4xl pt-4 lg:pt-8 my-2'>
+                <h4 className=' font-serif text-2xl 2xl:text-4xl pt-4 lg:pt-8 my-2'>
                   {testimonial.testimonialText}
                 </h4>
                 <div className='flex text-3xl pb-4 lg:pb-8 items-center'>
@@ -121,8 +124,8 @@ const Testimonials = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className='hidden lg:flex' />
-        <CarouselNext className='hidden lg:flex' />
+        <CarouselPrevious className='hidden 2xl:flex' />
+        <CarouselNext className='hidden 2xl:flex' />
       </Carousel>
     </div>
   )
