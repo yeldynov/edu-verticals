@@ -4,7 +4,7 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react'
 
 const Process = () => {
   return (
-    <div className='bg-[#181E2E] p-5 2xl:px-20 lg:py-8 lg:px-12 xl:py-16 rounded-[32px] text-[#EFFFF5]'>
+    <div className='bg-darkbg p-5 2xl:px-20 lg:py-8 lg:px-12 xl:py-16 rounded-[32px] text-eduwhite'>
       <div className='flex flex-col sm:flex-row items-center gap-4 justify-between'>
         <h1 className='font-serif text-3xl xl:text-6xl'>
           Our process is pretty simple
@@ -72,7 +72,7 @@ const Process = () => {
           </div>
         </div>
         {/* right */}
-        <div className='flex flex-1 bg-[#181E2E] flex-col lg:flex-row gap-2'>
+        <div className='flex flex-1 bg-darkbg flex-col lg:flex-row gap-2'>
           <div className='flex flex-col justify-around gap-8'>
             <p className='2xl:text-[25px] text-xl font-serif'>
               Empowering Through Education

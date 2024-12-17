@@ -1,3 +1,4 @@
+import Apart from '@/components/Apart'
 import Boost from '@/components/Boost'
 import Hero from '@/components/Hero'
 import NotSure from '@/components/NotSure'
@@ -14,6 +15,7 @@ export default function Home() {
       <Process />
       <Boost />
       <NotSure />
+      <Apart />
     </div>
   )
 }

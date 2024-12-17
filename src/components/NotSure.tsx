@@ -1,13 +1,12 @@
 import React from 'react'
 import { Button } from './ui/button'
-import { ArrowRight, ArrowUpRight } from 'lucide-react'
 
 const NotSure = () => {
   return (
-    <div className='bg-[#181E2E] p-5 2xl:px-16 lg:py-8 lg:px-12 xl:py-16 rounded-[32px] text-[#EFFFF5]'>
+    <div className='bg-darkbg p-5 2xl:px-16 lg:py-8 lg:px-12 xl:py-16 rounded-[32px] text-eduwhite'>
       <div className='flex  flex-col lg:flex-row gap-6'>
         {/* left */}
-        <div className='flex flex-1 bg-[#181E2E] flex-col lg:flex-row gap-2'>
+        <div className='flex flex-1 bg-darkbg flex-col lg:flex-row gap-2'>
           <div className='flex flex-col justify-center gap-2'>
             <h1 className='font-serif text-3xl xl:text-4xl 2xl:text-6xl'>
               Not Sure?
@@ -48,7 +47,7 @@ const NotSure = () => {
                 moment’s notice.
               </h6>
             </div>
-            <Button className='bg-[#181E2E] font-semibold w-fit hover:bg-white hover:text-maintext lg:px-8 py-6'>
+            <Button className='bg-darkbg font-semibold w-fit hover:bg-white hover:text-maintext lg:px-8 py-6'>
               Book a Free Consultation
             </Button>
           </div>
