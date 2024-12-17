@@ -1,3 +1,4 @@
+import Boost from '@/components/Boost'
 import Hero from '@/components/Hero'
 import Partners from '@/components/Partners'
 import Process from '@/components/Process'
@@ -10,6 +11,7 @@ export default function Home() {
       <Testimonials />
       <Partners />
       <Process />
+      <Boost />
     </div>
   )
 }
