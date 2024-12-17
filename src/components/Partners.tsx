@@ -93,7 +93,7 @@ const Partners = () => {
         <Link href={'/academic'}>
           <Button
             variant={'outline'}
-            className='border-black w-fit text-xl bg-transparent p-6 lg:p-8'
+            className='border-maintext w-fit text-xl hover:bg-maintext hover:text-white bg-transparent p-6 lg:p-8'
           >
             View All <ArrowRight />
           </Button>

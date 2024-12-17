@@ -1,5 +1,6 @@
 import Boost from '@/components/Boost'
 import Hero from '@/components/Hero'
+import NotSure from '@/components/NotSure'
 import Partners from '@/components/Partners'
 import Process from '@/components/Process'
 import Testimonials from '@/components/Testimonials'
@@ -12,6 +13,7 @@ export default function Home() {
       <Partners />
       <Process />
       <Boost />
+      <NotSure />
     </div>
   )
 }

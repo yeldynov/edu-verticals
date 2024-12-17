@@ -51,11 +51,11 @@ const Process = () => {
       </div>
       <div className='flex  flex-col lg:flex-row gap-6'>
         {/* left */}
-        <div className='flex bg-maintext border-[20px] border-[#202640] rounded-3xl p-5 flex-1 items-center xl:items-start flex-col xl:flex-row gap-2'>
+        <div className='flex bg-maintext sm:border-[20px] border-[#202640] rounded-3xl p-5 flex-1 items-center xl:items-start flex-col xl:flex-row gap-5'>
           <img
             src='/process-w.png'
             alt='Woman Speaker'
-            className='rounded-full w-[200px] h-[200px] 2xl:w-[250px] 2xl:h-[250px]'
+            className='rounded-full sm:w-[200px] sm:h-[200px] 2xl:w-[250px] 2xl:h-[250px]'
           />
           <div className='flex flex-col justify-between gap-8'>
             <p className='2xl:text-[25px] text-xl font-serif'>
