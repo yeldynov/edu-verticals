@@ -137,10 +137,10 @@ const Apart = () => {
           </div>
         </div>
         {/* bottom */}
-        <div className='flex flex-col lg:flex-row gap-5'>
-          <div className='lg:w-1/2  lg:flex-row'>
-            <div className='gap-5 flex flex-col lg:flex-row bg-white rounded-3xl'>
-              <div className='lg:w-2/5 rounded-3xl'>
+        <div className='flex flex-col xl:flex-row gap-5'>
+          <div className='xl:w-1/2 lg:flex-row'>
+            <div className='gap-5 flex flex-col min-h-[450px] lg:flex-row bg-white rounded-3xl'>
+              <div className='xl:w-1/2 rounded-3xl'>
                 <img
                   src='/guidance.png'
                   alt='Girls working'
@@ -200,9 +200,9 @@ const Apart = () => {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/2  lg:flex-row'>
-            <div className='gap-5 flex flex-col lg:flex-row bg-white rounded-3xl'>
-              <div className='lg:w-2/5 rounded-3xl'>
+          <div className='xl:w-1/2 lg:flex-row'>
+            <div className='gap-5 flex flex-col  min-h-[450px] lg:flex-row bg-white rounded-3xl'>
+              <div className='xl:w-1/2 rounded-3xl'>
                 <img
                   src='/guidance-2.png'
                   alt='Girls working'
