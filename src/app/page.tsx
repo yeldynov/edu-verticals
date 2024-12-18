@@ -1,5 +1,6 @@
 import Apart from '@/components/Apart'
 import Boost from '@/components/Boost'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import NotSure from '@/components/NotSure'
 import Partners from '@/components/Partners'
@@ -18,6 +19,7 @@ export default function Home() {
       <NotSure />
       <Apart />
       {/* <VideosCarousel /> */}
+      <Footer />
     </div>
   )
 }
