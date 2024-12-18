@@ -5,6 +5,7 @@ import NotSure from '@/components/NotSure'
 import Partners from '@/components/Partners'
 import Process from '@/components/Process'
 import Testimonials from '@/components/Testimonials'
+// import VideosCarousel from '@/components/VideosCarousel'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Boost />
       <NotSure />
       <Apart />
+      {/* <VideosCarousel /> */}
     </div>
   )
 }
