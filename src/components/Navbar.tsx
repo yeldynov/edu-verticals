@@ -48,7 +48,7 @@ export default function Navbar() {
   return (
     <header
       className={`sticky z-50 mx-auto border-b rounded-full bg-white transition-all duration-300 ${
-        !scrolled ? 'xl:top-16 2xl:top-24 top-4' : 'top-2 md:top-5 lg:top-2'
+        !scrolled ? 'xl:top-8 2xl:top-24 top-4' : 'top-2 md:top-5 lg:top-2'
       } xl:w-11/12 w-[98%]`}
     >
       <div className='container mx-auto flex h-24 gap-2  items-center justify-between px-4 lg:px-6'>
