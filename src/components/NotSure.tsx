@@ -35,7 +35,7 @@ const NotSure = () => {
           </div>
         </div>
         {/* right */}
-        <div className='flex bg-maintext sm:border-[20px] border-[#202640] rounded-3xl p-5 flex-1 items-center xl:items-start overflow-hidden flex-col-reverse xl:flex-row gap-5'>
+        <div className='flex bg-maintext lg:border-[20px] border-[#202640] rounded-3xl p-5 flex-1 items-center xl:items-start overflow-hidden flex-col-reverse xl:flex-row gap-5'>
           <div className='flex flex-col justify-between gap-8'>
             <h2 className='2xl:text-4xl text-xl sm:text-2xl font-serif'>
               Meet Our Education Counselors
@@ -47,7 +47,7 @@ const NotSure = () => {
                 moment’s notice.
               </h6>
             </div>
-            <Button className='bg-darkbg font-semibold w-fit hover:bg-white hover:text-maintext lg:px-8 py-6'>
+            <Button className='bg-darkbg font-semibold w-fit  hover:bg-white hover:text-maintext lg:px-8 py-6'>
               Book a Free Consultation
             </Button>
           </div>

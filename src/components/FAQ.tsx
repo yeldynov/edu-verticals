@@ -10,9 +10,9 @@ import {
 const FAQ = () => {
   return (
     <div className='bg-darkbg p-5 2xl:-mx-20 2xl:p-32 lg:px-12 xl:py-16 rounded-[32px] text-eduwhite'>
-      <div className='flex items-center flex-col lg:flex-row lg:gap-20 2xl:gap-36'>
+      <div className='flex items-center flex-col lg:flex-row  justify-between gap-10'>
         {/* left */}
-        <div className='flex bg-maintext sm:border-[20px] h-fit border-[#202640] rounded-3xl p-5 flex-1 items-center xl:items-start overflow-hidden flex-col-reverse xl:flex-row gap-5'>
+        <div className='flex bg-maintext lg:border-[20px] h-fit border-[#202640] rounded-3xl p-5 flex-1 items-center xl:items-start overflow-hidden flex-col-reverse xl:flex-row gap-5'>
           <img src='/not-sure.png' alt='Group of people' className='' />
           <div className='flex flex-col justify-between gap-8'>
             <h2 className='2xl:text-4xl text-xl sm:text-2xl font-serif'>
