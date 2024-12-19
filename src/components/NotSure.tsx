@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 
 const NotSure = () => {
   return (
-    <div className='bg-darkbg p-5 2xl:px-16 lg:py-8 lg:px-12 xl:py-16 rounded-[32px] text-eduwhite'>
+    <div className='bg-darkbg p-5 2xl:-mx-20 2xl:p-32 lg:px-12 xl:py-16 rounded-[32px] text-eduwhite'>
       <div className='flex  flex-col lg:flex-row gap-6'>
         {/* left */}
         <div className='flex flex-1 bg-darkbg flex-col lg:flex-row gap-2'>

@@ -1,5 +1,6 @@
 import Apart from '@/components/Apart'
 import Boost from '@/components/Boost'
+import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import NotSure from '@/components/NotSure'
@@ -10,7 +11,7 @@ import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
-    <div className='bg-[linear-gradient(to_bottom,_#EFF0F9_100%,_#EFF0F9_79%,_#EFF0F9_0%)] min-h-screen rounded-3xl p-5 xl:px-20'>
+    <div className='bg-[linear-gradient(to_bottom,_#EFF0F9_100%,_#EFF0F9_79%,_#EFF0F9_0%)] min-h-screen rounded-3xl px-5 xl:px-20'>
       <Hero />
       <Testimonials />
       <Partners />
@@ -19,6 +20,7 @@ export default function Home() {
       <NotSure />
       <Apart />
       {/* <VideosCarousel /> */}
+      <FAQ />
       <Footer />
     </div>
   )
