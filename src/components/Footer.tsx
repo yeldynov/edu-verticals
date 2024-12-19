@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 
 const Footer = () => {
   return (
-    <footer className='lg:px-20 lg:py-16 bg-white p-5 rounded-3xl'>
+    <footer className='lg:px-20 lg:-mx-20 -mx-5 lg:py-16 bg-white p-5 rounded-3xl'>
       <div className='mx-auto'>
         <div className='md:flex md:justify-between'>
           {/* logo */}

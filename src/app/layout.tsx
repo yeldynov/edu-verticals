@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`font-inter antialiased mx-auto max-w-[1920px] text-maintext bg-[#DDDEF8]`}
       >
-        <main className='2xl:mr-[77px] m-5 relative 2xl:ml-[51px] 2xl:mt-[55px] bg-gray-100 rounded-3xl'>
+        <main className='2xl:mr-[77px] relative 2xl:ml-[51px] 2xl:mt-[55px] bg-gray-100 rounded-3xl'>
           <Navbar />
           {children}
         </main>
