@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 
 const Process = () => {

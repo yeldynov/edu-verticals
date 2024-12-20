@@ -5,7 +5,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from '@/components/ui/carousel'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 

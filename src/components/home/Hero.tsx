@@ -1,21 +1,24 @@
 import React from 'react'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import { ArrowUpRight } from 'lucide-react'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
     <div className='xl:mt-20 relative my-8 xl:my-16 flex flex-col 2xl:mt-40 lg:flex-row gap-20'>
       {/* left */}
       <div className='flex flex-col lg:w-1/2 justify-center gap-8'>
-        <Button
-          variant='ghost'
-          className='border w-fit text-wrap lg:text-nowrap border-black rounded-full p-6 px-4'
+        <Link
+          href='https://yeldynov.tech'
+          target='_blank'
+          rel='noreferrer'
+          className='border flex items-center w-fit text-wrap lg:text-nowrap border-black rounded-full px-4 py-2'
         >
-          The Changing Landscape of Corporate Learning{' '}
+          The Changing Landscape of Corporate Learning
           <span className='bg-white p-1 rounded-full'>
             <ArrowUpRight />
           </span>
-        </Button>
+        </Link>
         <h1 className='font-serif font-light text-4xl xl:text-6xl leading-tight'>
           Unlock the future of online learning.
         </h1>
