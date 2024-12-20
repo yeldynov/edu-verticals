@@ -13,7 +13,7 @@ const Hero = () => {
           rel='noreferrer'
           className='border flex items-center w-fit text-wrap lg:text-nowrap border-black rounded-full px-4 py-2'
         >
-          We're hiring! Get in touch.
+          We&apos;re hiring! Get in touch.
           <span className='bg-white p-1 rounded-full'>
             <ArrowUpRight />
           </span>
