@@ -52,7 +52,7 @@ export default function Navbar() {
       } xl:w-11/12 w-[98%]`}
     >
       <div className='container mx-auto flex h-24 gap-2  items-center justify-between px-4 lg:px-6'>
-        <Link href='#' className='flex items-center gap-2' prefetch={false}>
+        <Link href='/' className='flex items-center gap-2' prefetch={false}>
           <Image
             src='/logo-full.png'
             alt=''
