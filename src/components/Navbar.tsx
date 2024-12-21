@@ -80,9 +80,11 @@ export default function Navbar() {
         </nav>
         <div className='flex items-center gap-4'>
           <div className='hidden items-center gap-2 text-sm font-medium lg:flex'>
-            <Button className='rounded-3xl h-12 font-bold hover:bg-[#E6EFFC] hover:text-maintext'>
-              Inquire now
-            </Button>
+            <Link href='https://yeldynov.tech' target='_blank' rel='noreferrer'>
+              <Button className='rounded-3xl h-12 font-bold hover:bg-[#E6EFFC] hover:text-maintext'>
+                Inquire now
+              </Button>
+            </Link>
           </div>
 
           <Sheet>
